@@ -1,6 +1,7 @@
 import React from "react";
-
 //import any components needed
+
+import Specials from "../../../data";
 
 //Import your array data to from the provided data file
 
@@ -15,3 +16,5 @@ const Specials = () => {
     </div>
   );
 };
+
+export default Specials;
