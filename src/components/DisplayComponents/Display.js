@@ -1,7 +1,7 @@
 import React from "react";
 
 const Display = (props) => {
-  console.log("Display", props, props.number);
+  console.log("Display", props);
   return <div className="display">
           {props.operators}
           {/* Display any props data here */}
