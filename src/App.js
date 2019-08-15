@@ -27,9 +27,9 @@ function App() {
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Display number={displayValue} />
-        <Specials />
+        <Specials doSpec={displayValue}/>
         <Numbers addNumber={addNumber}/>
-        <Operators addOperator={addOperator} />
+        <Operators addOperator={displayValue} />
 
       </div>
     </div>
